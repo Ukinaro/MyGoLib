@@ -3,5 +3,5 @@ package MyGoLib
 import "fmt"
 
 func SuperPrint() {
-	fmt.Print("skidish\n")
+	fmt.Print("skidish", min(5, 9), "\n")
 }
